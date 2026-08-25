@@ -27,6 +27,14 @@
     "webpack-cli": "^7.2.2"
   },
   "dependencies": {
-    "three": "^0.185.1"
+    "mind-ar": "^1.2.5",
+    "three": "0.149.0"
+  },
+  "overrides": {
+    "canvas": "npm:empty-npm-package@1.0.0"
+  },
+  "allowScripts": {
+    "core-js": true,
+    "esbuild": true
   }
 }
